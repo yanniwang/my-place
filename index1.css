@@ -1,0 +1,41 @@
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+.mainbody {
+  top: 0;
+  left: 80px;
+  width: 60%;
+  position: relative;
+}
+
+.top {
+  left: 100px;
+  width: 100%;
+  height: 100px;
+  border-bottom: 2px solid gray;
+}
+
+.ife {
+  background-color: red;
+  width: 150px;
+  height: 100px;
+  top: 80px;
+  float: left;
+}
+
+.ifeinner {
+  margin-top: 80px;
+  font-size: 20px;
+  height: 20px;
+}
+
+.time {
+  float: right;
+  margin-top: 80px;
+  height: 20px;
+  font-size: 20px;
+}
+
+
