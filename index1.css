@@ -18,7 +18,7 @@ body, html {
 }
 
 .ife {
-  background-color: #9d9d9d;
+  background-color: #9c0033;
   width: 150px;
   height: 100px;
   top: 80px;
@@ -54,14 +54,14 @@ body, html {
 .rightbody1 {
   margin-top: 33px;
   margin-left: 5%;
-  border-top: 4px solid gray;
+  border-top: 4px solid #204d74;
   height: 500px;
   float: left;
   width: 25%;
 }
 
 .door1 {
-  margin: 0;
+  margin-top: 20px;
 }
 
 .door1 > p {
@@ -72,6 +72,7 @@ body, html {
 .line1 {
   font-size: 35px;
   margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 .door2 {
@@ -83,9 +84,61 @@ body, html {
   padding: 0;
 }
 
-.line2{
+.line2 {
   margin-top: 0;
   font-size: 35px;
 }
 
+.door3 {
+  margin: 0;
+}
 
+.door3 > p {
+  padding: 0;
+  margin: 0;
+}
+
+.line3 {
+  font-size: 250px;
+  height: 250px;
+}
+
+.door4 {
+  margin: 0;
+}
+
+.door4 > p {
+  margin: 0;
+  padding: 0;
+  color: #9c0033;
+}
+
+.door5 {
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+
+.line4 {
+  font-size: 100px;
+}
+
+.door5 > p {
+  margin: 0;
+  padding: 0;
+}
+
+.door6 {
+  margin-bottom: 0;
+  padding: 0;
+  float: left;
+}
+
+.line5 {
+  width: 20px;
+  height: 10px;
+}
+
+.door6 > p {
+
+}
