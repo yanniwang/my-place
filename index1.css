@@ -99,8 +99,8 @@ body, html {
 }
 
 .line3 {
-  font-size: 250px;
-  height: 250px;
+  font-size: 140px;
+  height: 190px;
 }
 
 .door4 {
@@ -121,6 +121,7 @@ body, html {
 
 .line4 {
   font-size: 100px;
+  height: 95px;
 }
 
 .door5 > p {
@@ -137,8 +138,25 @@ body, html {
 .line5 {
   width: 20px;
   height: 10px;
+  margin-top: 50px;
+  float: left;
 }
 
-.door6 > p {
+.door7{
+  margin: 0;
+  padding: 0;
+  float: left;
+}
 
+.line6{
+  margin: 0;
+  padding: 0;
+}
+
+.border1{
+  width: 30%;
+}
+
+.border1>h2{
+  color: #0b97c4;
 }
