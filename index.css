@@ -1,0 +1,190 @@
+.tophead {
+    font-family: 微软雅黑;
+    font-size: 30px;
+    height: 80px;
+}
+
+.topheaddown1{
+    margin-left: 10%;
+    margin-top: 20px;
+}
+
+.topheaddown2{
+    margin-left: 5%;
+    margin-top: 20px;
+}
+
+.topheaddown3{
+    margin-left: 5%;
+    margin-top: 20px;
+    width: 25%;
+}
+
+.body1{
+    background-color: deepskyblue;
+    height: 300px;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.body2{
+    font-size: 90px;
+    margin-left: 20%;
+    padding-top: 60px;
+}
+
+.body3{
+    font-size: 45px;
+    font-family: 微软雅黑;
+    margin-left: 20%;
+}
+
+.body4{
+    margin-top: 50px;
+}
+
+.body5{
+    float: left;
+    margin-left: 15%;
+}
+
+.body6{
+    height: 200px;
+    width: 200px;
+}
+
+.body7{
+    font-family: 微软雅黑;
+    font-size: 25px;
+    text-align: center;
+}
+
+.body8{
+    float: left;
+    margin-left: 5%;
+}
+
+.body9{
+    height: 200px;
+    width: 200px;
+}
+
+.body10{
+    font-family: 微软雅黑;
+    font-size: 25px;
+    text-align: center;
+}
+
+.body11{
+    height: 790px;
+}
+
+.body12{
+    font-size: 30px;
+    text-align: center;
+    padding: 0;
+}
+
+.body13{
+    line-height: 51px;
+}
+
+.body14{
+    padding: 0;
+}
+
+.body15{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.body16{
+    height: 797px;
+}
+
+.body17{
+    background: black;
+    opacity: .8;
+}
+
+.body18{
+    font-size: 23px;
+}
+
+.body19{
+    font-size: 30px;
+}
+
+.body20{
+    line-height: 50px;
+}
+
+.body21{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.body22{
+    background-color: gainsboro;
+    margin-left: 1%;
+    margin-right: 1%;
+    height: 400px;
+}
+
+.body23{
+    text-align: center;
+    font-family: 微软雅黑;
+    font-size: 80px;
+    color: cornflowerblue;
+    padding-top: 50px;
+}
+
+.body24{
+    margin-left: 3%;
+    font-size: 60px;
+    margin-top: 80px;
+}
+
+.body25{
+    background-color: gray;
+    margin-left: 1%;
+    margin-right: 1%;
+    height: 100px;
+}
+
+.body26{
+    text-align: center;
+    font-family: 微软雅黑;
+    font-size: 30px;
+}
+
+.body27{
+    text-align: center;
+    font-family: 微软雅黑;
+    font-size: 25px;
+}
+
+.next1{
+    width: 60%;
+    float: left;
+}
+
+.next2{
+    width: 40%;
+    float: left;
+}
+
+.next3{
+    width: 15%;
+    float: left;
+}
+
+.next4{
+    width: 50%;
+    float: left;
+}
+
+.next5{
+    width: 35%;
+    float: left;
+}
