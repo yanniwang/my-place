@@ -1,0 +1,32 @@
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+.topbody {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.word {
+  float: left;
+  margin-left: 100px;
+  margin-top: 20px;
+  font-family: 微软雅黑;
+  font-size: 30px;
+}
+
+.part1 {
+  float: left;
+  font-family: 微软雅黑;
+  font-size: 20px;
+  margin-left: 50px;
+}
+
+.part2 {
+  float: left;
+  margin-left: 600px;
+  font-size: 20px;
+  font-family: 微软雅黑;
+}
