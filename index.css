@@ -1,0 +1,59 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.tophead {
+    height: 120px;
+    background-color: beige;
+}
+
+.headcenter {
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    height: 120px;
+}
+
+.picture {
+    border-radius: 50%;
+    overflow: hidden;
+    height: 80px;
+    width: 80px;
+    float: left;
+    margin-top: 30px;
+}
+
+.title {
+    font-family: 微软雅黑;
+    font-size: 35px;
+    margin-left: 10px;
+    float: left;
+}
+
+.jiankang {
+    position: absolute;
+    top: 75px;
+    left: 605px;
+}
+
+.extratitle {
+    margin-left: 100px;
+    float: left;
+    margin-top: 60px;
+}
+
+.picture1 {
+    border-radius: 50%;
+    overflow: hidden;
+    height: 100px;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 325px;
+}
+
+.centerbody {
+    background-color: green;
+    height: 50px;
+    width: 100%;
+}
