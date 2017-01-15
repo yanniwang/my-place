@@ -57,3 +57,27 @@ html, body {
     height: 50px;
     width: 100%;
 }
+
+.select {
+    margin-top: 20px;
+    width: 103px;
+    background-color: green;
+    color: white;
+    border-style: none;
+    float: left;
+}
+
+.shouye {
+    float: left;
+    margin-left: 100px;
+    margin-top: 20px;
+    color: white;
+    font-size: 13px;
+}
+
+.centerbodybelow {
+    background-image: url("timg (2).jpg");
+    height: 600px;
+    width: 100%;
+    background-size:cover;
+}
