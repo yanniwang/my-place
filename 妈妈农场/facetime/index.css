@@ -1,0 +1,50 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.bluehead {
+    height: 60px;
+    background-color: deepskyblue;
+    width: 100%;
+}
+
+.innerwhite {
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    position: absolute;
+    top: 10px;
+    left: 60px;
+}
+
+#search_form{
+    width: 200px;
+    height: 30px;
+    background: url(http://files.jb51.net/demoimg/200912/bg_search_box.gif);
+    position: absolute;
+    right: 200px;
+    top: 15px;
+}
+
+#s {
+    float: left;
+    padding: 0;
+    margin: 6px 0 0 6px;
+    border: 0;
+    width: 160px;
+    background: none;
+    font-size: .8em;
+}
+
+#go {
+    float: right;
+    margin: 3px 4px 0 0;
+}
+
+.write{
+    position: absolute;
+    right: 160px;
+    top: 5px;
+    font-size: 15px;
+}
