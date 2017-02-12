@@ -3,239 +3,48 @@ html, body {
     padding: 0;
 }
 
-.tophead {
-    height: 120px;
-    background-color: beige;
+.bluehead {
+    height: 60px;
+    background-color: deepskyblue;
+    width: 100%;
 }
 
-.headcenter {
-    margin-left: auto;
-    margin-right: auto;
-    width: 900px;
-    height: 120px;
-}
-
-.picture {
-    border-radius: 50%;
-    overflow: hidden;
-    height: 80px;
-    width: 80px;
-    float: left;
-    margin-top: 30px;
-}
-
-.title {
-    font-family: 微软雅黑;
-    font-size: 35px;
-    margin-left: 10px;
-    float: left;
-}
-
-.jiankang {
+.innerwhite {
+    height: 40px;
+    width: 40px;
+    background-color: white;
     position: absolute;
-    top: 75px;
-    left: 605px;
+    top: 10px;
+    left: 60px;
 }
 
-.extratitle {
-    margin-left: 100px;
+#search_form{
+    width: 200px;
+    height: 30px;
+    background: url(http://files.jb51.net/demoimg/200912/bg_search_box.gif);
+    position: absolute;
+    right: 200px;
+    top: 15px;
+}
+
+#s {
     float: left;
-    margin-top: 60px;
+    padding: 0;
+    margin: 6px 0 0 6px;
+    border: 0;
+    width: 160px;
+    background: none;
+    font-size: .8em;
 }
 
-.picture1 {
-    border-radius: 50%;
-    overflow: hidden;
-    height: 100px;
-    height: 100px;
-    margin-top: 20px;
-    margin-left: 325px;
+#go {
+    float: right;
+    margin: 3px 4px 0 0;
 }
 
-.centerbody {
-    background-color: green;
-    height: 50px;
-    width: 100%;
+.write{
+    position: absolute;
+    right: 160px;
+    top: 5px;
+    font-size: 15px;
 }
-
-.select {
-    margin-top: 20px;
-    width: 103px;
-    background-color: green;
-    color: white;
-    border-style: none;
-    float: left;
-}
-
-.shouye {
-    float: left;
-    margin-left: 100px;
-    margin-top: 20px;
-    color: white;
-    font-size: 13px;
-}
-
-.centerbodybelow {
-    background-image: url("5.jpg");
-    height: 1000px;
-    width: 100%;
-    background-size: cover;
-}
-
-.part {
-    background-color: beige;
-    height: 2500px;
-}
-
-.centerbodybelow1 {
-    margin-left: auto;
-    margin-right: auto;
-    width: 900px;
-    height: 300px;
-}
-
-.below1 {
-    height: 280px;
-    width: 30%;
-    background-image: url("2.jpg");
-    float: left;
-    margin-left: 0px;
-    margin-top: 20px;
-    box-shadow: 0px 5px 5px black;
-}
-
-.below2 {
-    height: 280px;
-    width: 30%;
-    background-image: url("1.jpg");
-    float: left;
-    margin-left: 5%;
-    margin-top: 20px;
-    box-shadow: 0px 5px 5px black;
-}
-
-.below3 {
-    height: 280px;
-    width: 30%;
-    background-image: url("5.jpg");
-    float: left;
-    margin-left: 5%;
-    margin-top: 20px;
-    box-shadow: 0px 5px 5px black;
-}
-
-.word {
-    margin-left: 10px;
-    margin-top: 100px;
-    color: green;
-    font-family: 微软雅黑;
-    font-size: 20px;
-}
-
-.nitu {
-    color: black;
-    font-family: 微软雅黑;
-    font-size: 18px;
-    margin-top: 20px;
-    margin-bottom: 5px;
-}
-
-.picture2 {
-    height: 300px;
-    width: 530px;
-    box-shadow: 0px 5px 5px black;
-    float: left
-}
-
-.picture3 {
-    height: 300px;
-    width: 350px;
-    margin-left: 20px;
-    box-shadow: 0px 5px 5px black;
-    float: left
-}
-
-.nitu1 {
-    color: black;
-    font-family: 微软雅黑;
-    font-size: 18px;
-    margin-bottom: 5px;
-}
-
-.picture4 {
-    float: left;
-    height: 300px;
-    width: 350px;
-    box-shadow: 0px 5px 5px black;
-}
-
-.picture5 {
-    float: left;
-    height: 300px;
-    width: 530px;
-    box-shadow: 0px 5px 5px black;
-    margin-left: 20px;
-}
-
-.centerbodybelow2 {
-    margin-left: auto;
-    margin-right: auto;
-    width: 900px;
-    height: 345px;
-}
-
-.centerbodybelow3 {
-    margin-left: auto;
-    margin-right: auto;
-    width: 900px;
-}
-
-.picture6 {
-    height: 300px;
-    width: 280px;
-    margin-top: 50px;
-    float: left;
-    box-shadow: 0px 5px 5px black;
-}
-
-.picture7 {
-    height: 300px;
-    width: 280px;
-    margin-top: 50px;
-    float: left;
-    margin-left: 30px;
-    box-shadow: 0px 5px 5px black;
-}
-
-.picture8 {
-    height: 300px;
-    width: 280px;
-    margin-top: 50px;
-    float: left;
-    margin-left: 30px;
-    box-shadow: 0px 5px 5px black;
-}
-
-.caijia {
-    margin-top: 20px;
-    float: left;
-    width: 280px;
-    text-align: center;
-}
-
-.caijia1 {
-    margin-top: 20px;
-    float: left;
-    width: 280px;
-    margin-left: 30px;
-    text-align: center;
-}
-
-.caijia2 {
-    margin-top: 20px;
-    float: left;
-    width: 280px;
-    margin-left: 30px;
-    text-align: center;
-}
-
