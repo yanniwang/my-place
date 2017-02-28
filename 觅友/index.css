@@ -1,0 +1,126 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.headtop {
+    width: 100%;
+    height: 300px;
+}
+
+.miyou {
+    color: lightcoral;
+    font-family: 微软雅黑;
+    font-size: 100px;
+    position: absolute;
+    top: 50px;
+    left: 500px;
+    margin: 0;
+    padding: 0;
+}
+
+.friendsfinding {
+    font-family: 微软雅黑;
+    font-size: 60px;
+    position: absolute;
+    top: 180px;
+    left: 500px;
+    margin: 0;
+    padding: 0;
+}
+
+.line {
+    position: absolute;
+    top: 250px;
+    left: 500px;
+    margin: 0;
+    padding: 0;
+    width: 570px;
+    height: 20px;
+}
+
+.addword {
+    position: absolute;
+    top: 270px;
+    left: 500px;
+    margin: 0;
+    padding: 0;
+    width: 580px;
+    height: 200px;
+}
+
+.topright {
+    width: 200px;
+    height: 302px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 500px;
+}
+
+.picture {
+    height: 150px;
+    width: 160px;
+    margin-top: 90px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.guanzhu {
+    font-size: 17px;
+    font-family: 微软雅黑;
+    margin-left: 60px;
+}
+
+.middlepart1 {
+    width: 100%;
+    height: 1500px;
+    background-color: gainsboro;
+    margin-top: 12px;
+}
+
+.part1 {
+    height: 1000px;
+    width: 860px;
+    box-shadow: 0px 0px 40px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 250px;
+}
+
+.middlepart2 {
+    width: 100%;
+    height: 1500px;
+    background-color: beige;
+}
+
+.part2 {
+    height: 1000px;
+    width: 860px;
+    box-shadow: 0px 0px 40px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 250px;
+}
+
+.middlepart3 {
+    width: 100%;
+    height: 1000px;
+    background-color: aliceblue;
+}
+
+.littlebox {
+    position: relative;
+    top: 200px;
+    height: 600px;
+    width: 27.5%;
+    margin-left: 15%;
+    float: left;
+    box-shadow: 0px 0px 40px;
+}
+
+.footpart{
+
+}
