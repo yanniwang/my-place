@@ -1,0 +1,9 @@
+body {
+    background: red;
+}
+
+input {
+    width: 200px;
+    height: 100px;
+    background: black;
+}

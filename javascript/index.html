@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>title</title>
+    <link id="l1" rel="stylesheet" type="text/css" href="index1.css">
+    <script>
+        function skin1() {
+            var ol = document.getElementById('l1');
+            ol.href = 'index1.css';
+        }
+        function skin2() {
+            var ol = document.getElementById('l1');
+            ol.href = 'index.css';
+        }
+    </script>
+</head>
+<body>
+<input type="button" value="换肤1" onclick="skin1()">
+<input type="button" value="换肤2" onclick="skin2()">
+</body>
+</html>
