@@ -3,20 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <title>title</title>
-    <link id="l1" rel="stylesheet" type="text/css" href="index1.css">
+    <style>
+        #div1 {
+            width: 200px;
+            height: 200px;
+            background: red;
+        }
+    </style>
+
     <script>
-        function skin1() {
-            var ol = document.getElementById('l1');
-            ol.href = 'index1.css';
-        }
-        function skin2() {
-            var ol = document.getElementById('l1');
-            ol.href = 'index.css';
-        }
+        alert(swi);
+//        function setStyle(name, value) {
+//            var oDiv = document.getElementById('div1');
+//            oDiv.style[name] = value;
+//        }
+        //        function toWidth() {
+        //            var oDiv = document.getElementById('div1');
+        //            oDiv.style.width = '400px';
+        //        }
+        //        function toHeight() {
+        //            var oDiv = document.getElementById('div1');
+        //            oDiv.style.height = '400px';
+        //        }
+        //        function toGreen() {
+        //            var oDiv = document.getElementById('div1');
+        //            oDiv.style.color = 'green';
+        //        }
+        //        function setColor(color) {
+        //            var oDiv = document.getElementById('div1');
+        //            oDiv.style.background = color;
+        //        }
+        //        //        setColor('green');
+        //        //                function toGreen() {
+        //        //                    var oDiv = document.getElementById('div1')
+        //        //                    oDiv.style.background = 'green';
+        //        //                }
+        //        //                function toYellow() {
+        //        //                    var oDiv = document.getElementById('div1')
+        //        //                    oDiv.style.background = 'yellow';
+        //        //                }
+        //        //                function toBlack() {
+        //        //                    var oDiv = document.getElementById('div1')
+        //        //                    oDiv.style.background = 'black';
+        //        //                }
+        //        //
     </script>
 </head>
+
+
 <body>
-<input type="button" value="换肤1" onclick="skin1()">
-<input type="button" value="换肤2" onclick="skin2()">
+<input type="button" value="变宽" onclick="setStyle('width','400px')"/>
+<input type="button" value="变高" onclick="setStyle('height','400px')"/>
+<input type="button" value="变绿" onclick="setStyle('background','green')"/>
+<div id="div1"></div>
+
+
+<!--<input type="button" value="变绿" onclick="setColor('green')"/>-->
+<!--<input type="button" value="变黄" onclick="setColor('pink')"/>-->
+<!--<input type="button" value="变黑" onclick="setColor('tan')"/>-->
+<!--<div id="div1"></div>-->
 </body>
 </html>
